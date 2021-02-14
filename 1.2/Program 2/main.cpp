@@ -7,7 +7,7 @@ using namespace std;
 int main()
 {
   ifstream inData;
-  ifstream outData;
+  ofstream outData;
   outData.open("gift1.out");
   inData.open("gift1.in");
 
@@ -82,7 +82,7 @@ int main()
   //outputs balances
   for(int z = 0; z < numPpl; z++)
   {
-    cout << friends[z] << " " << balances[z] << endl;
+    outData << friends[z] << " " << balances[z] << endl;
   }
 
   inData.close();
