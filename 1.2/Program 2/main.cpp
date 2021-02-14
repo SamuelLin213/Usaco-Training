@@ -1,3 +1,9 @@
+/*
+ID: samueld6
+TASK: gift1
+LANG: C++
+*/
+/* LANG can be C++11 or C++14 for those more recent releases */
 #include <iostream>
 #include <iomanip>
 #include <fstream>
